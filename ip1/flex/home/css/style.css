@@ -1,0 +1,335 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+/*--------------------*/
+
+body {
+	font-family: Arial, sans-serif, Shantell Sans;
+}
+
+.main {
+	min-height: 100%;
+	overflow: hidden;
+	/* display: flex;
+	flex-direction: column; */
+
+}
+
+.content {
+	flex: 1 1 auto;
+}
+
+.header {
+	padding: 50px 0px 60px 0px;
+	background-color: rgb(205, 166, 137);
+	/* margin: -20px 0px -90px 0px; */
+}
+
+.container {
+	max-width: 1180px;
+	margin: 0px auto;
+}
+
+.header__row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__body {
+	color: #000000;
+}
+
+.header__title {
+	font-size: 30px;
+	font-weight: 500;
+	text-align: left;
+	margin: 0px 0px -50px 80px
+}
+
+.header__image {}
+
+.header__item {
+	text-align: center;
+	font-size: 18px;
+	margin: -45px 0px 0px 950px
+}
+
+a {
+	background-color: rgb(205, 166, 137);
+}
+
+.columns {
+	background-color: rgb(255, 228, 196);
+	padding: 20px 0px 50px 0px;
+}
+
+.columns__title {
+	text-align: center;
+	margin: 90px 0px 70px 0px;
+	font-size: 25px;
+	border: 2px solid#d7b957;
+	background-color: rgb(230, 205, 173);
+	padding: 7px 0px;
+}
+
+.columns__row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -8px;
+}
+
+.columns__column {
+	flex: 0 1 50%;
+	padding: 0px 8px;
+	margin: 0px 0px 30px 0px;
+}
+
+.columns__item {}
+
+.item {}
+
+.item__row {
+	display: flex;
+}
+
+.item__image {
+	flex: 0 0 200px;
+}
+
+.item__image1 img {
+	width: 440px;
+}
+
+.item__image2 img {
+	width: 440px;
+}
+
+.item__image3 img {
+	width: 440px;
+}
+
+.item__image4 img {
+	width: 440px;
+}
+
+.item__body {
+	padding: 150px 0px 0px 5px;
+	flex: 1 1 auto;
+}
+
+.item__title {
+	color: #445161;
+	font-size: 24px;
+	margin: 0px 0px 15px 0px;
+}
+
+.item__text {
+	color: #333333;
+	font-size: 20px;
+	line-height: 24px;
+	border: 2px solid#a1905a;
+	background-color: rgb(201, 176, 143);
+}
+
+.information {
+	background-color: rgb(255, 228, 196);
+}
+
+.container {}
+
+.information__row {
+	display: flex;
+}
+
+.information__info {}
+
+.info__item {}
+
+.info__row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.info__img {
+	flex: 0 0 700px;
+}
+
+.info__img1 img {
+	width: 700px;
+	height: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.info__img2 img {
+	width: 700px;
+	height: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.info__body {
+	padding: 20px 5px 50px 5px;
+	margin: 0px -5px 0px -5px;
+}
+
+.info__title {}
+
+.info__text1 {
+	font-size: 30px;
+	line-height: 45px;
+	border: 2px solid#a1905a;
+	background-color: rgb(201, 176, 143);
+	font-weight: 400;
+	margin: -295px 0px 0px 750px;
+	padding: 5px;
+}
+
+.info__text2 {
+	font-size: 30px;
+	line-height: 45px;
+	border: 2px solid#a1905a;
+	background-color: rgb(201, 176, 143);
+	font-weight: 400;
+	margin: -350px 30px 0px 750px;
+
+}
+
+.end__part {
+	display: flex;
+	justify-content: space-between;
+	margin: 100px 0px;
+}
+
+.content {}
+
+.end__row {
+	display: flex;
+	background-color: rgb(183, 187, 124);
+}
+
+.end__image {
+	width: 500px;
+	height: auto;
+}
+
+.end__body {}
+
+.end__text {
+	font-size: 25px;
+	margin: 200px 0px 0px 400px;
+	padding: 5px 15px;
+	text-align: center;
+}
+
+.end__text a{
+	background-color: rgb(183, 187, 124);
+}
+
+
+.footer {
+	background-color: rgb(205, 166, 137)
+}
+
+.footer__row {
+	display: flex;
+	height: 120px;
+	justify-content: right;
+	align-items: right;
+}
+
+.footer__text {
+	color: #445162;
+	font-size: 12px;
+	letter-spacing: 0.3px;
+}
+
+.footer__image {
+	margin: 30px 5px;
+}
